@@ -30,11 +30,17 @@ header > h3 {
     font-size: 2.5vw; 
 }
 
+.header-image.image-1 {
+    background-image: url("images/camilo-fierro-z7rcwqCi77s-unsplash.jpg"); 
+}
+
+.header-image.image-2 {
+    background-image: url("images/nathalie-jolie-nKzeG3iE_Qg-unsplash.jpg"); 
+}
 
 .header-image {
     display: flex; 
     height: 100vh; 
-    background-image: url("images/camilo-fierro-z7rcwqCi77s-unsplash.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat; 
     box-shadow: inset 0 100vw 100vw rgba(0, 0, 0, 0.4); 
@@ -95,24 +101,86 @@ nav > ul > li > a:hover {
 
 .content-body {
     margin: 0; 
+    margin-bottom: 3vw; 
+}
+
+.content-body.contact {
     margin-top: 10vh; 
 }
 
-
-/* Contact Us */
-
-.phone-label, .email-label, .phone-label > p, .email-label > p, .address, .address > div, .address > p {
+.heading {
     margin: 0; 
     padding: 0; 
 }
 
-.phone, .email, .phone-label, .email-label {
+.heading {
     margin-bottom: 2vw; 
     padding-top: 1.5vw; 
     padding-bottom: 1.5vw; 
+    padding-left: 3vw; 
     font-size: 2vw; 
     font-family: 'Rockwell', 'Times New Roman', serif; 
     color: white; 
+}
+
+/* About  */
+
+.history > .heading {
+    font-size: 2.5vw; 
+}
+
+.full-box > .heading, .sub-box > .heading {
+    /* padding-left: 3vw;  */
+    font-weight: lighter; 
+    background-color: #151340; 
+}
+
+.full-box.adopt {
+    display: flex; 
+    justify-content: center; 
+}
+
+.full-box.history {
+    margin-bottom: 3vw; 
+    background-color: #3A2294; 
+}
+
+.sub-box {
+    display: inline-block; 
+    width: 40vw; 
+    float: left; 
+    background-color: #5035B4; 
+}
+
+.sub-box.shelter-hours {
+    margin-left: 4vw; 
+}
+
+.full-box > p {
+    padding-bottom: 2vw; 
+    padding-left: 3vw; 
+    padding-right: 3vw; 
+    color: white; 
+    font-family: 'Rockwell', 'Times New Roman', serif; 
+    font-size: 1.7vw; 
+}
+
+.sub-box > p {
+    padding-bottom: 1vw; 
+    padding-left: 2.5vw; 
+    padding-right: 2.5vw; 
+    color: white; 
+    font-family: 'Rockwell', 'Times New Roman', serif; 
+    font-size: 1.2vw; 
+}
+
+
+
+/* Contact Us */
+
+.phone-label > p, .email-label > p, .address, .address > div, .address > p {
+    margin: 0; 
+    padding: 0; 
 }
 
 .phone, .email {
@@ -142,7 +210,6 @@ nav > ul > li > a:hover {
 
 .address {
     display: inline-block; 
-    margin-bottom: 3vw; 
     width: 70vw; 
     background-color: #5035B4; 
     font-size: 2vw; 

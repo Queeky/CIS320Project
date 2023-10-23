@@ -9,20 +9,20 @@
     <body>
         <?php include("includes/header.inc.php"); ?>
         
-        <div class='header-image'>
+        <div class='header-image image-1'>
             <h3>Contact Us</h3>
         </div>
-        <div class='content-body'>
-            <div class='phone'>
+        <div class='content-body contact'>
+            <div class='phone heading'>
                 <a href="#">(765) 662 0850</a>
             </div>
-            <div class='phone-label'>
+            <div class='phone-label heading'>
                 <p>Phone #</p>
             </div>
-            <div class='email'>
+            <div class='email heading'>
                 <a href="#">animal-sanctuary@gmail.com</a>
             </div>
-            <div class='email-label'>
+            <div class='email-label heading'>
                 <p>Email</p>
             </div>
             <div class='address'>
