@@ -1,0 +1,82 @@
+{
+    "pets": [ 
+        {
+            "Name": "Ella",
+            "Age": "12",
+            "Sex": "Female",
+            "Breed": "Minature Schnauzer"
+        },
+
+        {
+            "Name": "Loki",
+            "Age" : "2",
+            "Sex": "Male",
+            "Breed": "Believed to be a Chihuahua and Dachshund mix "
+    
+        },
+
+        {
+            "Name": "Addie",
+            "Age": "5",
+            "Sex": "Female",
+            "Breed": "German Shepard"
+    
+        },
+
+        {
+            "Name": "Elliot",
+            "Age": "3",
+            "Sex": "Male",
+            "Breed": "Siamese"
+        },
+
+        {
+            "Name": "Lily",
+            "Age": "2",
+            "Sex":"Female",
+            "Breed": "Bengal"
+        },
+
+        {  
+            "Name": "Sage",
+            "Age": "1",
+            "Sex": "Female",
+            "Breed": "Ragdoll"
+        },
+
+        {
+            "Name": "Smoke",
+            "Age": "7",
+            "Sex": "Male",
+            "Breed": "Weimaraner"
+    
+
+        },
+
+    
+        {   
+            "Name": "Diesel",
+            "Age": "4",
+            "Sex": "Male",
+            "Breed": "RottWeiler"
+        },
+
+
+        {   
+            "Name": "Max",
+            "Age": "8",
+            "Sex": "Male",
+            "Breed": "American Shorthair"
+        },
+
+        {   
+            "Name": "Zoe",
+            "Age": "4",
+            "Sex": "Female",
+            "Breed": "French Bulldog"
+        }
+
+    ]
+}
+
+
