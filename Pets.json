@@ -4,53 +4,56 @@
             "Name": "Ella",
             "Age": "12",
             "Sex": "Female",
-            "Breed": "Minature Schnauzer"
+            "Breed": "Minature Schnauzer", 
+            "Image": "./images/minature schnauzer.jpg"
         },
 
         {
             "Name": "Loki",
             "Age" : "2",
             "Sex": "Male",
-            "Breed": "Believed to be a Chihuahua and Dachshund mix "
-    
+            "Breed": "Believed to be a Chihuahua and Dachshund mix",
+            "Image": "./images/Chiweenie.jpg"
         },
 
         {
             "Name": "Addie",
             "Age": "5",
             "Sex": "Female",
-            "Breed": "German Shepard"
-    
+            "Breed": "German Shepard",
+            "Image": "./images/German Shepherd.jpg"
         },
 
         {
             "Name": "Elliot",
             "Age": "3",
             "Sex": "Male",
-            "Breed": "Siamese"
+            "Breed": "Siamese",
+            "Image": "./images/siamese.jpg"
         },
 
         {
             "Name": "Lily",
             "Age": "2",
             "Sex":"Female",
-            "Breed": "Bengal"
+            "Breed": "Bengal",
+            "Image": "./images/bengal cat.jpg"
         },
 
         {  
             "Name": "Sage",
             "Age": "1",
             "Sex": "Female",
-            "Breed": "Ragdoll"
+            "Breed": "Ragdoll",
+            "Image": "./images/ragdoll cat.jpg"
         },
 
         {
             "Name": "Smoke",
             "Age": "7",
             "Sex": "Male",
-            "Breed": "Weimaraner"
-    
-
+            "Breed": "Weimaraner",
+            "Image": "./images/Weimaraner.jpg"
         },
 
     
@@ -58,7 +61,8 @@
             "Name": "Diesel",
             "Age": "4",
             "Sex": "Male",
-            "Breed": "RottWeiler"
+            "Breed": "RottWeiler",
+            "Image": "./images/rottweiler.jpg"
         },
 
 
@@ -66,14 +70,16 @@
             "Name": "Max",
             "Age": "8",
             "Sex": "Male",
-            "Breed": "American Shorthair"
+            "Breed": "American Shorthair",
+            "Image": "./images/american shorthair.jpg"
         },
 
         {   
             "Name": "Zoe",
             "Age": "4",
             "Sex": "Female",
-            "Breed": "French Bulldog"
+            "Breed": "French Bulldog",
+            "Image": "./images/french bulldog.jpg"
         }
 
     ]

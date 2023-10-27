@@ -38,6 +38,10 @@ header > h3 {
     background-image: url("images/nathalie-jolie-nKzeG3iE_Qg-unsplash.jpg"); 
 }
 
+.header-image.image-3 {
+    background-image: url("images/andrew-s-ouo1hbizWwo-unsplash.jpg"); 
+}
+
 .header-image {
     display: flex; 
     height: 100vh; 
@@ -125,6 +129,11 @@ nav > ul > li > a:hover {
 
 /* About  */
 
+.sub-box, .full-box {
+    margin: 0; 
+    padding: 0; 
+}
+
 .history > .heading {
     font-size: 2.5vw; 
 }
@@ -147,16 +156,19 @@ nav > ul > li > a:hover {
 
 .sub-box {
     display: inline-block; 
-    width: 40vw; 
-    float: left; 
     background-color: #5035B4; 
+}
+
+.adopt > .sub-box, .sub-box.shelter-hours {
+    float: left; 
+    width: 40vw; 
 }
 
 .sub-box.shelter-hours {
     margin-left: 4vw; 
 }
 
-.full-box > p {
+.full-box.adopt > p, .full-box.history > p {
     padding-bottom: 2vw; 
     padding-left: 3vw; 
     padding-right: 3vw; 
@@ -165,7 +177,7 @@ nav > ul > li > a:hover {
     font-size: 1.7vw; 
 }
 
-.sub-box > p {
+.adopt > .sub-box > p {
     padding-bottom: 1vw; 
     padding-left: 2.5vw; 
     padding-right: 2.5vw; 
@@ -222,4 +234,65 @@ nav > ul > li > a:hover {
     padding-left: 3vw; 
     width: 50vw; 
     background-color: #3A2294; 
+}
+
+
+/* Pets  */
+
+.pets-wrap, .pets > h3, .pets > div, .pets, .pets > img {
+    margin: 0; 
+    padding: 0; 
+}
+
+.content-body.pets-page {
+    display: flex; 
+    align-items: center; 
+    margin-top: 10vh; 
+}
+
+.pets-wrap {
+    margin-left: 6.3vw;
+    margin-right: 6.3vw; 
+}
+
+.pets {
+    margin-left: 1vw; 
+    margin-bottom: 1.5vh; 
+    width: 27vw; 
+    height: 80vh; 
+    overflow: auto; 
+} 
+
+.pets > img {
+    width: 100%; 
+    height: 40vh; 
+    object-fit: cover; 
+}
+
+.pets > h3 {
+    padding-top: 1vw; 
+    padding-bottom: 1vw; 
+    padding-left: 2vw; 
+    background-color: #151340; 
+    color: white; 
+    font-size: 2vw; 
+    font-family: 'Rockwell', 'Times New Roman', serif; 
+    font-weight: lighter; 
+}
+
+.pets > div {
+    margin-top: 2vw; 
+    margin-left: 3vw; 
+    margin-right: 3vw; 
+}
+
+.pets > div > p {
+    color: white; 
+    font-size: 2vw; 
+    font-family: 'Rockwell', 'Times New Roman', serif; 
+    font-size: 1.3vw; 
+}
+
+.pets > div > p > span {
+    font-weight: bold;  
 }
