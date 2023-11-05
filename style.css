@@ -42,6 +42,10 @@ header > h3 {
     background-image: url("images/andrew-s-ouo1hbizWwo-unsplash.jpg"); 
 }
 
+.header-image.image-4 {
+    background-image: url("images/krista-mangulsone-9gz3wfHr65U-unsplash.jpg"); 
+}
+
 .header-image {
     display: flex; 
     height: 100vh; 
@@ -295,4 +299,19 @@ nav > ul > li > a:hover {
 
 .pets > div > p > span {
     font-weight: bold;  
+}
+
+
+/* Supplies  */
+
+.sub-box.supplies {
+    margin-top: 3vw; 
+    width: 60vw !important; 
+}
+
+.supplies > ul > li {
+    color: white; 
+    font-size: 2vw; 
+    font-family: 'Rockwell', 'Times New Roman', serif; 
+    font-size: 1.3vw; 
 }

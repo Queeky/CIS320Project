@@ -9,9 +9,10 @@ function displayHeader() {
 function displayNav() {
     echo "<nav>"; 
     echo "<ul class='nav-dropdown'>"; 
-    echo "<li><a href='about.php' target='_blank'>ABOUT</a></li>"; 
-    echo "<li><a href='index.php' target='_blank'>CONTACT US</a></li>"; 
-    echo "<li><a href='pets.php' target='_blank'>PETS</a></li>";
+    echo "<li><a href='about.php'>ABOUT</a></li>"; 
+    echo "<li><a href='index.php'>CONTACT US</a></li>"; 
+    echo "<li><a href='pets.php'>PETS</a></li>";
+    echo "<li><a href='supplies.php'>SUPPLIES</a></li>"; 
     echo "</ul>"; 
     echo "</nav>"; 
 }
